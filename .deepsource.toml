@@ -1,37 +1,10 @@
 version = 1
 
 [[analyzers]]
-name = "test-coverage"
-
-[[analyzers]]
-name = "terraform"
-
-[[analyzers]]
 name = "sql"
 
 [[analyzers]]
-name = "shell"
-
-[[analyzers]]
-name = "secrets"
-
-[[analyzers]]
 name = "scala"
-
-[[analyzers]]
-name = "rust"
-
-  [analyzers.meta]
-  msrv = "stable"
-
-[[analyzers]]
-name = "ruby"
-
-[[analyzers]]
-name = "php"
-
-[[analyzers]]
-name = "javascript"
 
 [[analyzers]]
 name = "java"
@@ -40,22 +13,43 @@ name = "java"
   runtime_version = "11"
 
 [[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
 name = "go"
 
   [analyzers.meta]
   import_root = "github.com/qq635436080/scrapy"
 
 [[analyzers]]
-name = "docker"
-
-[[analyzers]]
 name = "csharp"
 
 [[analyzers]]
-name = "ansible"
+name = "terraform"
 
 [[analyzers]]
-name = "cxx"
+name = "secrets"
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "ansible"
 
 [[analyzers]]
 name = "python"
